@@ -102,7 +102,7 @@ public class PrestadorServicoBusinessImpl implements PrestadorServicoBusiness{
 			if(tipoServico.getCodigo() == null) {
 				throw new BusinessException("Código Prestador Serviço é Requerido.");
 			}
-		}
+		} 
 		return dao.update(prestador);
 	}
 
